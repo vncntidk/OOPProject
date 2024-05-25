@@ -104,7 +104,7 @@
             txtPass.BackColor = Color.White;
             txtPass.BorderStyle = BorderStyle.None;
             txtPass.Font = new Font("Nirmala UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtPass.ForeColor = Color.White;
+            txtPass.ForeColor = Color.FromArgb(61, 59, 64);
             txtPass.Location = new Point(48, 312);
             txtPass.Name = "txtPass";
             txtPass.PasswordChar = '•';
@@ -116,7 +116,7 @@
             txtUser.BackColor = Color.White;
             txtUser.BorderStyle = BorderStyle.None;
             txtUser.Font = new Font("Nirmala UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtUser.ForeColor = Color.White;
+            txtUser.ForeColor = Color.FromArgb(61, 59, 64);
             txtUser.Location = new Point(47, 212);
             txtUser.Name = "txtUser";
             txtUser.Size = new Size(408, 24);
@@ -206,7 +206,7 @@
             txtConPass.BackColor = Color.White;
             txtConPass.BorderStyle = BorderStyle.None;
             txtConPass.Font = new Font("Nirmala UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtConPass.ForeColor = Color.White;
+            txtConPass.ForeColor = Color.FromArgb(61, 59, 64);
             txtConPass.Location = new Point(48, 412);
             txtConPass.Name = "txtConPass";
             txtConPass.PasswordChar = '•';

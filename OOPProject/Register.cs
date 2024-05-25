@@ -25,7 +25,7 @@ namespace OOPProject
             this.MouseUp += BorderlessForm_MouseUp;
         }
 
-        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_users.mdb");
+        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=RecipeCatalogdb.mdb");
         OleDbCommand cmd = new OleDbCommand();
         OleDbDataAdapter da = new OleDbDataAdapter();
 
@@ -71,30 +71,53 @@ namespace OOPProject
 
         private void btnLog_Click(object sender, EventArgs e)
         {
-            if (txtUser.Text == "" && txtPass.Text == "" && txtConPass.Text == "")
+            if (txtUser.Text == "" || txtPass.Text == "" || txtConPass.Text == "")
             {
                 MessageBox.Show("Please fill in all fields.", "Registration Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            else if (txtPass.Text == txtConPass.Text)
+            else if (txtPass.Text != txtConPass.Text)
             {
-                con.Open();
-                string register = "INSERT INTO tbl_users VALUES('" + txtUser.Text + "','" + txtPass.Text + "')";
-                cmd = new OleDbCommand(register, con);
-                cmd.ExecuteNonQuery();
-                con.Close();
-
-                txtUser.Text = "";
+                MessageBox.Show("Passwords do not match", "Registration Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtPass.Text = "";
                 txtConPass.Text = "";
-
-                MessageBox.Show("Your account has been successfully created", "Registration Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txtPass.Focus();
             }
             else
             {
-                MessageBox.Show("Password does not match", "Registration Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtConPass.Text = "";
-                txtPass.Text = "";
-                txtPass.Focus();
+                 
+                con.Open();
+                string checkUserQuery = "SELECT COUNT(*) FROM [user] WHERE username = @username";
+                OleDbCommand checkUserCmd = new OleDbCommand(checkUserQuery, con);
+                checkUserCmd.Parameters.AddWithValue("@username", txtUser.Text);
+                int userCount = (int)checkUserCmd.ExecuteScalar();
+                con.Close();
+
+                if (userCount > 0)
+                {
+                    MessageBox.Show("User already exists. Please choose a different username.", "Registration Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtUser.Text = "";
+                    txtPass.Text = "";
+                    txtConPass.Text = "";
+                    txtUser.Focus();
+                }
+                else
+                {
+                     
+                    con.Open();
+                    string register = "INSERT INTO [user] (username, [password], registeredDate) VALUES (@username, @password, @registeredDate)";
+
+                    cmd = new OleDbCommand(register, con);
+                    cmd.Parameters.AddWithValue("@username", txtUser.Text);
+                    cmd.Parameters.AddWithValue("@password", txtPass.Text);
+                    cmd.Parameters.AddWithValue("@registeredDate", DateTime.Now.ToShortDateString());  
+                    cmd.ExecuteNonQuery();
+                    con.Close();
+
+                    txtUser.Text = "";
+                    txtPass.Text = "";
+                    txtConPass.Text = "";
+                    MessageBox.Show("Your account has been successfully created", "Registration Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
         }
 

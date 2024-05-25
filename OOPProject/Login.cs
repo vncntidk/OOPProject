@@ -25,9 +25,9 @@ namespace OOPProject
             this.MouseUp += BorderlessForm_MouseUp;
         }
 
-        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_users.mdb");
+        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=RecipeCatalogdb.mdb");
         OleDbCommand cmd = new OleDbCommand();
-        OleDbDataAdapter da = new OleDbDataAdapter();
+
         private void BorderlessForm_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
@@ -66,13 +66,16 @@ namespace OOPProject
         private void btnLog_Click(object sender, EventArgs e)
         {
             con.Open();
-            string login = "SELECT * FROM tbl_users WHERE username='" + txtUser.Text + "' and password= '" + txtPass.Text + "'";
+            string login = "SELECT * FROM [user] WHERE username='" + txtUser.Text + "' and password= '" + txtPass.Text + "'";
             cmd = new OleDbCommand(login, con);
             OleDbDataReader dr = cmd.ExecuteReader();
 
             if (dr.Read() == true)
             {
-                new FormMenu().Show();
+                string username = GetLoggedInUsername();
+                MessageBox.Show($"Welcome {username}!", "Login Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                new CuisineMenu(username);
+                new FormMenu(username).Show();
                 this.Hide();
             }
             else
@@ -83,7 +86,12 @@ namespace OOPProject
                 txtUser.Text = "";
                 txtUser.Focus();
             }
+            con.Close();
+        }
 
+        private string GetLoggedInUsername()
+        {
+            return txtUser.Text;
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)

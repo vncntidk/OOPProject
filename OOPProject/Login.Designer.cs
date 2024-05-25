@@ -68,7 +68,7 @@
             // 
             panel1.BackColor = Color.FromArgb(61, 59, 64);
             panel1.ForeColor = Color.FromArgb(61, 59, 64);
-            panel1.Location = new Point(41, 242);
+            panel1.Location = new Point(41, 257);
             panel1.Name = "panel1";
             panel1.Size = new Size(413, 2);
             panel1.TabIndex = 1;
@@ -137,7 +137,7 @@
             txtUser.BorderStyle = BorderStyle.None;
             txtUser.Font = new Font("Nirmala UI", 10.8F, FontStyle.Bold);
             txtUser.ForeColor = Color.FromArgb(61, 59, 64);
-            txtUser.Location = new Point(46, 213);
+            txtUser.Location = new Point(41, 224);
             txtUser.Name = "txtUser";
             txtUser.Size = new Size(408, 24);
             txtUser.TabIndex = 8;
@@ -149,7 +149,7 @@
             txtPass.BorderStyle = BorderStyle.None;
             txtPass.Font = new Font("Nirmala UI", 10.8F, FontStyle.Bold);
             txtPass.ForeColor = Color.FromArgb(61, 59, 64);
-            txtPass.Location = new Point(46, 312);
+            txtPass.Location = new Point(41, 310);
             txtPass.Name = "txtPass";
             txtPass.PasswordChar = '•';
             txtPass.Size = new Size(408, 24);

@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OOPProject.Properties.Resources" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAbAgAUKQFCCzBDUPgMBGhRASRhIIAYBFSDYayIUu4k=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.Controls.buttons" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIgAAACIAAAAAIAgIgAABCCAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\buttons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.Controls.cmbx" Collapsed="true">
+    <Position X="2" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GQAJIQEICREACqAFQEIAAIACIAAACAgAiJEAQBADABA=</HashCode>
+      <FileName>Controls\cmbx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.Controls.Textbox" Collapsed="true">
+    <Position X="10.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FA7IhQACjKABAABNQQagAAAXAAAAAAAEEAAAAAYLAAA=</HashCode>
+      <FileName>Controls\Textbox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.AddCuisines" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAggAgAgFS0AABwYAgCBQQEGAEgAAAFCwAACEQBAAQw=</HashCode>
+      <FileName>AddCuisines.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.AddIngredients" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MGAgAgAABCIAABwYEkCBUSECAAgAAQgAEgACEQFDAQw=</HashCode>
+      <FileName>AddIngredients.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.AddInstructions" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EARhAiAABChACBUYAACBQSECIAoAAQQQgAACEQFCAQw=</HashCode>
+      <FileName>AddInstructions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.AddRecipe" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MCAgAgAAFSAIABycAkGBcaUCAAlQARCIQCACEQFChSw=</HashCode>
+      <FileName>AddRecipe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.Admin" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIgAIAAADAAABQAAICABYGCAACCBBAAAAACAAAQAAA=</HashCode>
+      <FileName>Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.AllCuisines" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoAAAAADQAEAQAAAGAAQACAABBAABAwAAAAQAAIAA=</HashCode>
+      <FileName>AllCuisines.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.Comments" Collapsed="true">
+    <Position X="3.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACEAAAQAAACAAQEyAAAAAAAAAABAAAQIAAA=</HashCode>
+      <FileName>Comments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.CuisineMenu" Collapsed="true">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQgEBAgBCgAAZQAMRCBAQECAAQgAQEAKiACQQAAAAg=</HashCode>
+      <FileName>CuisineMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.Details" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCAAAAQAABGAAQGCAAwAAgARAABAAYCAABk=</HashCode>
+      <FileName>Details.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.Filters" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAADAACBAAAACACBACAAAKACAJAAAgAAAAEFA=</HashCode>
+      <FileName>Filters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.Home" Collapsed="true">
+    <Position X="3.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAACAAAAQAAICAAQECAAAAARAgBAAAAQAQIAM=</HashCode>
+      <FileName>Home.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.FormLog" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgABQAAGAGBDUKAACAAQACCBAQAAAAAAEAAYFCAQA=</HashCode>
+      <FileName>Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.FormMenu" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gYgIDIQwKCAFRQRAYKCAEQEiAAAZJoQcANEIRYR5AZw=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.Profile" Collapsed="true">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAgQoAIBCAAAAUQAACAAQXCAMB7BAAIACiCBAAkAAE=</HashCode>
+      <FileName>Profile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.Program" Collapsed="true">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.FormRegister" Collapsed="true">
+    <Position X="2" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAhQAACAGBDWKAACAAQACCBDQAAAAAAAAAQFCAQA=</HashCode>
+      <FileName>Register.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.Replied" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAAAQAAgCAAQECAAAAAAEAAAAAAGAAQAA=</HashCode>
+      <FileName>Replied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.RepliedSuggest" Collapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAAAQAAgCAAQECAAAAAAEAAAAAAEAEQAA=</HashCode>
+      <FileName>RepliedSuggest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.Report" Collapsed="true">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEBACAAABQAAACAAQECABAAAAEAAAAAAEAAEAA=</HashCode>
+      <FileName>Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.ReportAdmin" Collapsed="true">
+    <Position X="2" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAAACCAAEQAAACAAYCCAAgAAAQAAgACAQAAgAA=</HashCode>
+      <FileName>ReportAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.Reviews" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEoAAAACATAAAgQDEInCIYViAAQCMREEQEhEAEAQMBE=</HashCode>
+      <FileName>Reviews.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.Search" Collapsed="true">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAAAARAAICAAUGCAAECAAQAAAAgAQCQAAA=</HashCode>
+      <FileName>Search.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.SearchCuisine" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAACAACAAAAQAABCAAQACIAgAAAAAAgACAQAAgAA=</HashCode>
+      <FileName>SearchCuisine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.SearchIngredients" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAACAACAAAAQAABCAAYECIAgAAAQAAgACAQAAgAA=</HashCode>
+      <FileName>SearchIngredients.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.SearchRecipe" Collapsed="true">
+    <Position X="12.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAACAACAAAAQAABCAAYECIAgAAAQAAgACAQAAgAA=</HashCode>
+      <FileName>SearchRecipe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.ShowProfile" Collapsed="true">
+    <Position X="2" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQAAAACAAAAUAAACAAQFCAMB7AAAIACiAAAAEAAE=</HashCode>
+      <FileName>ShowProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.SortedComments" Collapsed="true">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACEAAAQAAACAAQEyEAAAAAAAAABAAAQIAAA=</HashCode>
+      <FileName>SortedComments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.SpecRecipes" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQoAAAAADAAEgQAAJCAAQECAIBBAABAQEAAAAAAIAE=</HashCode>
+      <FileName>SpecRecipes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.SubProfile" Collapsed="true">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAACAAAA0AAACAAQFCAAAAEBAAAAACAAIhQAU=</HashCode>
+      <FileName>SubProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.Suggestion" Collapsed="true">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgAIAAACCAAAQAAACAAYCCAAAAAAQAAgACAQAAgAA=</HashCode>
+      <FileName>Suggestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.theReply" Collapsed="true">
+    <Position X="12.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACADAAAAQAAACAAQECAAQCAAAgCAAAAAAAAEo=</HashCode>
+      <FileName>theReply.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.Users" Collapsed="true">
+    <Position X="2" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAAACAAAAQAAICBAQCCAAAAAAAABABCAQAAgAA=</HashCode>
+      <FileName>Users.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.ViewCuisines" Collapsed="true">
+    <Position X="3.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAEAAACAAAAQACICAAQECBAAAAAIAAAAAAAAQAAA=</HashCode>
+      <FileName>ViewCuisines.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.ViewPopular" Collapsed="true">
+    <Position X="5.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIkJkCAXAAADAAIAmAARECAARCAgMIEApEEwIEDAk=</HashCode>
+      <FileName>ViewPopular.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.ViewRecipeHome" Collapsed="true">
+    <Position X="7.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIgAAAADAAEgQAAACAgQECAABBAABAQAAAAAAAIAA=</HashCode>
+      <FileName>ViewRecipeHome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPProject.ViewRecipes" Collapsed="true">
+    <Position X="9" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgAAAAACAACAQQIICACYECAABQAYIAAAFACQA0AAA=</HashCode>
+      <FileName>ViewRecipes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
